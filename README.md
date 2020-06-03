@@ -10,7 +10,7 @@ relatively good match, but in four cases (East Northamptonshire, High Peak, Cope
 more than 10% of a LA's area is in a different NHS region. The area is available in the `area_match`
 column.
 
-## Method
+## Method
 
 This is matched using PostGIS, with the "Local Authority Districts" and "NHS England Regions" shapefiles
 from [ONS](https://geoportal.statistics.gov.uk/) imported as `local_authorities` and `nhs_regions`:
